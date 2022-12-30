@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h2{
+        background-color: aqua;
+       }
+       
+    </style>
+</head>
+<body>
+    <h2><span>acess a javascript json</h2>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+        <script>
+            const myObj={"name":"Pratik","age":"21","State":"odisha", "study":"chandigarh"};
+            document.getElementById("demo1").innerHTML = JSON.stringify(myObj);
+            // document.getElementById("demo1").innerHTML=myObj.name;
+            // document.getElementById("demo2").innerHTML=myObj.age;
+            // document.getElementById("demo3").innerHTML=myObj.city;
+            // document.getElementById("demo4").innerHTML=myObj.study;
+            
+           
+        </script>
+
+</body>
+</html>
